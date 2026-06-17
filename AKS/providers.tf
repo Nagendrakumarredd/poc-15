@@ -2,12 +2,14 @@ terraform {
   required_version = "1.15.6"
 
   cloud {
-    organization = "pavankattamuri"
+    
+    organization = "poc-15-1"
 
     workspaces {
       name = "poc-15"
     }
   }
+}
 
   required_providers {
     azurerm = {
