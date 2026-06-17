@@ -14,7 +14,6 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     node_count = 2
     vm_size    = "Standard_D2s_v7"
   }
-
   identity {
     type = "SystemAssigned"
   }
