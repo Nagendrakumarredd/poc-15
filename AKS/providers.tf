@@ -1,8 +1,7 @@
 terraform {
-  required_version = "1.15.6"
+  required_version = ">= 1.0"
 
   cloud {
-    
     organization = "poc-15-1"
 
     workspaces {
